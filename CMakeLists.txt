@@ -12,5 +12,5 @@ include_directories(external-lib/SFML-2.5.0/include/SFML/Audio)
 include_directories(external-lib/SFML-2.5.0/include/SFML/Graphics)
 include_directories(external-lib/SFML-2.5.0/include/SFML/Network)
 
-add_executable(invader main.cpp Core.cpp Core.h)
+add_executable(invader main.cpp Core.cpp Core.h IEntity.hpp Atribute.cpp Atribute.hh)
 

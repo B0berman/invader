@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/invader.dir/main.cpp.o"
   "CMakeFiles/invader.dir/Core.cpp.o"
+  "CMakeFiles/invader.dir/Atribute.cpp.o"
   "invader.pdb"
   "invader"
 )

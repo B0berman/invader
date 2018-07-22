@@ -82,10 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/hugo/invader/Atribute.cpp">
+			<Option target="invader"/>
+		</Unit>
+		<Unit filename="/home/hugo/invader/Atribute.hh">
+			<Option target="invader"/>
+		</Unit>
 		<Unit filename="/home/hugo/invader/Core.cpp">
 			<Option target="invader"/>
 		</Unit>
 		<Unit filename="/home/hugo/invader/Core.h">
+			<Option target="invader"/>
+		</Unit>
+		<Unit filename="/home/hugo/invader/IEntity.hpp">
 			<Option target="invader"/>
 		</Unit>
 		<Unit filename="/home/hugo/invader/main.cpp">
