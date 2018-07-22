@@ -44,7 +44,12 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/System"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Window"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Audio"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Graphics"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Network"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -68,7 +73,12 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/System"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Window"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Audio"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Graphics"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Network"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>

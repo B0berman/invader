@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hugo/invader/external-lib/SFML-2.5.0/include 
+CXX_INCLUDES = -I/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML -I/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/System -I/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Window -I/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Audio -I/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Graphics -I/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Network 
 

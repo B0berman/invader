@@ -206,6 +206,9 @@ SFML-2.5.0/lib/cmake/SFML_DIR:PATH=SFML-2.5.0/lib/cmake/SFML_DIR-NOTFOUND
 //The directory containing a CMake configuration file for SFML.
 SFML_DIR:PATH=SFML_DIR-NOTFOUND
 
+//The directory containing a CMake configuration file for external-lib/SFML-2.5.0/cmake/SFML.
+external-lib/SFML-2.5.0/cmake/SFML_DIR:PATH=external-lib/SFML-2.5.0/cmake/SFML_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for external-lib/SFML-2.5.0/lib/cmake/SFML/SFML.
 external-lib/SFML-2.5.0/lib/cmake/SFML/SFML_DIR:PATH=external-lib/SFML-2.5.0/lib/cmake/SFML/SFML_DIR-NOTFOUND
 
@@ -214,6 +217,9 @@ external-lib/SFML-2.5.0/lib/cmake/SFML/_DIR:PATH=external-lib/SFML-2.5.0/lib/cma
 
 //The directory containing a CMake configuration file for external-lib/SFML-2.5.0/lib/cmake/SFML.
 external-lib/SFML-2.5.0/lib/cmake/SFML_DIR:PATH=external-lib/SFML-2.5.0/lib/cmake/SFML_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for external-lib/SFML-2.5.0.
+external-lib/SFML-2.5.0_DIR:PATH=external-lib/SFML-2.5.0_DIR-NOTFOUND
 
 //Value Computed by CMake
 invader_BINARY_DIR:STATIC=/home/hugo/invader/cmake-build-debug

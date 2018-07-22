@@ -1,0 +1,3 @@
+/home/hugo/invader/CMakeFiles/rebuild_cache.dir
+/home/hugo/invader/CMakeFiles/edit_cache.dir
+/home/hugo/invader/CMakeFiles/invader.dir
