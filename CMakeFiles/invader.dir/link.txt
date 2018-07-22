@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/invader.dir/main.cpp.o  -o invader 
+/usr/bin/c++  -g   CMakeFiles/invader.dir/main.cpp.o CMakeFiles/invader.dir/Core.cpp.o  -o invader 

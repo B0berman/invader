@@ -5,14 +5,15 @@
 ## Login   <hugo@epitech.net>
 ## 
 ## Started on  Sun Jul 22 01:59:10 2018 Hugo
-## Last update Sun Jul 22 02:03:43 2018 Hugo
+## Last update Sun Jul 22 02:28:53 2018 Hugo
 ##
 
 CXX	= 	g++
 
 NAME	=	invader
 
-SRCS	=	main.cpp
+SRCS	=	main.cpp \
+		Core.cpp
 
 OBJS	=	$(SRCS:.cpp=.o)
 

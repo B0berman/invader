@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="invader"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hugo/invader"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hugo/invader"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hugo/invader"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="invader">
+				<Option output="/home/hugo/invader/invader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hugo/invader"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/System"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Window"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Audio"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Graphics"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Network"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 invader"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="invader/fast">
+				<Option output="/home/hugo/invader/invader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hugo/invader"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/System"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Window"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Audio"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Graphics"/>
+					<Add directory="/home/hugo/invader/external-lib/SFML-2.5.0/include/SFML/Network"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 invader/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hugo/invader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hugo/invader/Core.cpp">
+			<Option target="invader"/>
+		</Unit>
+		<Unit filename="/home/hugo/invader/Core.h">
+			<Option target="invader"/>
+		</Unit>
+		<Unit filename="/home/hugo/invader/main.cpp">
+			<Option target="invader"/>
+		</Unit>
+		<Unit filename="/home/hugo/invader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
